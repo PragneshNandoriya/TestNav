@@ -21,4 +21,8 @@ class MainActivityNew : Activity() {
             startActivity(Intent(this, PaymentActivity::class.java))
         }
     }
+
+    fun add(){
+
+    }
 }
