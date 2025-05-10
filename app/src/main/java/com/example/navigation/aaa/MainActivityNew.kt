@@ -27,4 +27,7 @@ class MainActivityNew : Activity() {
     fun add(){
 
     }
+    fun substract(){
+
+    }
 }
