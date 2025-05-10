@@ -23,4 +23,8 @@ class MainActivityNew : Activity() {
         }
         Log.i("MainActivity", "onCreate: ")
     }
+
+    fun add(){
+
+    }
 }
