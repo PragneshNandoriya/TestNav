@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.example.navigation"
@@ -15,7 +15,7 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
-
+        namespace("com.example.navigation")
     buildTypes {
         release {
             minifyEnabled false
