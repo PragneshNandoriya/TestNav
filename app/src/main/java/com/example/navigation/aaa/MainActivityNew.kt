@@ -25,7 +25,9 @@ class MainActivityNew : Activity() {
     }
 
     fun add(){
-
+        var a = 10
+        var b = 15
+        a+b
     }
     fun substract(){
 
