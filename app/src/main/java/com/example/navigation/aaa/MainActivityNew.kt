@@ -4,6 +4,7 @@ import android.app.Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import com.example.navigation.R
 import com.example.navigation.aaa.PaymentActivity
@@ -20,5 +21,15 @@ class MainActivityNew : Activity() {
         findViewById<Button>(R.id.btn_kotlin).setOnClickListener {
             startActivity(Intent(this, PaymentActivity::class.java))
         }
+        Log.i("MainActivity", "onCreate: ")
+    }
+
+    fun add(){
+        var a = 10
+        var b = 15
+        a+b
+    }
+    fun substract(){
+
     }
 }
